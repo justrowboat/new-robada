@@ -53,7 +53,7 @@ client.on('message', message => {
     message.react('🤔');
 });
 
-/* Reacts on user with GR flag/Any chosen emoji*/
+/* Reacts on user with GR flag/Any chosen emoji
 client.on('message', message => {
   // If the user ID is "defined"
   if (message.author.id === '254279600841031680') {
@@ -62,16 +62,18 @@ client.on('message', message => {
 
   }
 });
+*/
 
-
+/*
 client.on('message', message => {
-  // If the user ID is "defined"
+  // If the user ID is "defined" Craft's ID below
   if (message.author.id === '63456328256856064') {
     // Send reaction after "author.id" posts.
 	message.react('💩');
 
   }
 });
+*/
 
 client.on('message', message => {
   all_emoji = client.guilds.first().emojis;
