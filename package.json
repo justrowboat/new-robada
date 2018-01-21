@@ -1,6 +1,6 @@
 {
-  "name": "New Robada",
-  "description": "New Robada Bot",
+  "name": "new-robada",
+  "description": "new-robada-bot",
   "version": "0.0.1",
   "main": "bot.js",
   "scripts": {
