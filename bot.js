@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = 'MzIzMTEyNDk3OTgyODY1NDA5.DB2Zew.BSoXtJLkkcjywqx4WRLqwg2E7Mk';
 
 
 function commandIs(str, message) {
@@ -89,4 +88,4 @@ client.on('message', message => {
   }
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
