@@ -86,17 +86,21 @@ client.on('message', message => {
   }
 });
 
+
+/*
 client.on('message', message => {
-  // If the user ID is "defined"
+  // If the user ID is "defined" Jax's ID
   if (message.author.id === '134389860608901121') {
     // Send reaction after "author.id" posts.
 	message.react('💩');
-	/*
+	
 	message.react('🇮🇳');
 	message.react('💻');
 	message.channel.sendMessage('💩💩 🐍JAX🐍IS🐍A🐍ＲＥＰＴＩＬＥ🐍 💩💩');
-  */
+  
   }
 });
+*/
+
 
 client.login(process.env.BOT_TOKEN);
