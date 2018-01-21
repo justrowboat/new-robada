@@ -65,6 +65,15 @@ client.on('message', message => {
 */
 
 client.on('message', message => {
+  // If the user ID is "defined"
+  if (message.author.id === '63456328256856064') {
+    // Send reaction after "author.id" posts.
+	message.react('💩');
+
+  }
+});
+
+client.on('message', message => {
   all_emoji = client.guilds.first().emojis;
   if (message.author.id === '2542') {
     // Send reaction after "author.id" posts.
