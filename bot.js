@@ -23,6 +23,10 @@ client.on('ready', () => {
 });
 
 client.on('ready', () => {
+        client.user.setGame('Rust');
+});
+
+client.on('ready', () => {
         client.user.setGame('New Robada');
 });
 
