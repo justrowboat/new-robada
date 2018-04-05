@@ -90,6 +90,10 @@ client.on('message', message => {
   }
 });
 
+var msg = "test";
+for (var g in client.guilds.array()) {
+    client.guilds.array()[g].defaultChannel.send(msg);
+}
 
 /*
 client.on('message', message => {
